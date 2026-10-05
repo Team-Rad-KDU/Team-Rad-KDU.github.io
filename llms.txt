@@ -1,0 +1,16 @@
+# Team Rad KDU
+
+> Team Rad KDU is the student team of the Society of Radiography and Radiotherapy, Faculty of Allied Health Sciences (FAHS), General Sir John Kotelawala Defence University (KDU), Sri Lanka. "Rad" stands for radiography. The team runs SIHINA (සිහින, "dreams" in Sinhala), the annual World Radiography Day community-service project, which has run since at least 2014.
+
+Also known as: Team Rad, KDU Radiography Society.
+
+## Current project
+- [SIHINA 2026 – Sihina KDU](https://team-rad-kdu.github.io/Sihina/): renovating a classroom complex at Urugala Sri Dharmaloka School, Ingiriya, Horana, for about 400 students; proposed budget Rs. 710,002. Full facts: https://team-rad-kdu.github.io/Sihina/llms.txt
+
+## Contact and support
+- Sponsorship form: https://forms.gle/V6UBUqEMEiU7rNVE8
+- Phone: 078 713 4441 (Chamod)
+
+## Pages
+- [Home](https://team-rad-kdu.github.io/)
+- [SIHINA 2026](https://team-rad-kdu.github.io/Sihina/)
