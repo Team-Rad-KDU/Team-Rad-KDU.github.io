@@ -8,6 +8,7 @@
     <priority>0.9</priority>
     <image:image><image:loc>https://team-rad-kdu.github.io/og-image.jpg</image:loc></image:image>
     <image:image><image:loc>https://team-rad-kdu.github.io/images/hero.webp</image:loc></image:image>
+    <image:image><image:loc>https://team-rad-kdu.github.io/images/logo.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://team-rad-kdu.github.io/Sihina/</loc>

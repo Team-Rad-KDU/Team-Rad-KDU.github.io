@@ -22,8 +22,8 @@
 <meta property="og:url" content="https://team-rad-kdu.github.io/">
 <meta property="og:title" content="Team Rad KDU – the team behind SIHINA 2026">
 <meta property="og:description" content="KDU's Society of Radiography and Radiotherapy. A decade of SIHINA community projects – now renovating Urugala Sri Dharmaloka School, Ingiriya.">
-<meta property="og:image" content="https://team-rad-kdu.github.io/og-image.jpg?v=1">
-<meta property="og:image:secure_url" content="https://team-rad-kdu.github.io/og-image.jpg?v=1">
+<meta property="og:image" content="https://team-rad-kdu.github.io/og-image.jpg?v=2">
+<meta property="og:image:secure_url" content="https://team-rad-kdu.github.io/og-image.jpg?v=2">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -31,9 +31,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Team Rad KDU – the team behind SIHINA 2026">
 <meta name="twitter:description" content="KDU's Society of Radiography and Radiotherapy. A decade of SIHINA community projects.">
-<meta name="twitter:image" content="https://team-rad-kdu.github.io/og-image.jpg?v=1">
+<meta name="twitter:image" content="https://team-rad-kdu.github.io/og-image.jpg?v=2">
 <meta name="twitter:image:alt" content="Team Rad KDU – Home of SIHINA.">
-<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preload" as="image" type="image/webp" href="/images/hero-md.webp" media="(max-width: 1080px)" fetchpriority="high">
@@ -69,7 +71,7 @@
     "width": 512,
     "height": 512
    },
-   "image": "https://team-rad-kdu.github.io/og-image.jpg?v=1",
+   "image": "https://team-rad-kdu.github.io/og-image.jpg?v=2",
    "parentOrganization": {
     "@id": "https://team-rad-kdu.github.io/#kdu"
    },
@@ -102,6 +104,9 @@
    "inLanguage": "en",
    "publisher": {
     "@id": "https://team-rad-kdu.github.io/#org"
+   },
+   "hasPart": {
+    "@id": "https://team-rad-kdu.github.io/Sihina/#webpage"
    }
   },
   {
@@ -119,9 +124,12 @@
    "dateModified": "2026-10-04",
    "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "https://team-rad-kdu.github.io/og-image.jpg?v=1",
+    "url": "https://team-rad-kdu.github.io/og-image.jpg?v=2",
     "width": 1200,
     "height": 630
+   },
+   "hasPart": {
+    "@id": "https://team-rad-kdu.github.io/Sihina/#webpage"
    }
   },
   {
@@ -205,7 +213,9 @@ section{padding:clamp(3rem,8vw,5rem) 0}
 header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);box-shadow:0 1px 2px rgba(0,0,0,.1)}
 .bar{display:flex;align-items:center;justify-content:space-between;height:62px;gap:1rem}
 .brand{font-family:var(--display);font-weight:800;text-decoration:none;color:var(--board);font-size:1.15rem;display:flex;gap:.6rem;align-items:center}
-.brand b{display:grid;place-items:center;width:34px;height:34px;border-radius:9px;background:var(--board);color:#fff}
+.brand img{width:40px;height:40px}
+.feature-logo{display:block;width:170px;height:auto;margin:0 auto 1.2rem}
+.foot-logo{width:110px;height:auto;margin-bottom:.4rem}
 .bar nav a{color:var(--ink);text-decoration:none;font-weight:700;margin-left:1.2rem;opacity:.8}
 .bar nav a:hover{opacity:1}
 .bar nav a.cta{color:var(--accent);opacity:1}
@@ -254,7 +264,7 @@ footer p{margin:.3rem 0}
 </head>
 <body>
 <header><div class="wrap bar">
-  <a class="brand" href="/" aria-label="Team Rad KDU home"><b>R</b>Team Rad KDU</a>
+  <a class="brand" href="/" aria-label="Team Rad KDU home"><img src="/images/logo-mark.webp" width="40" height="40" alt="">Team Rad KDU</a>
   <nav aria-label="Main"><a href="#about">About</a><a href="#projects">Projects</a><a href="#faq">FAQ</a><a class="cta" href="/Sihina/">SIHINA 2026 →</a></nav>
 </div></header>
 <main>
@@ -278,11 +288,14 @@ footer p{margin:.3rem 0}
         <p><em>Sihina</em> (සිහින) means “dreams” in Sinhala.</p>
         <div class="ctas"><a class="btn btn-b" href="/Sihina/">See the plan, budget &amp; how to donate →</a></div>
       </div>
+      <div>
+        <img class="feature-logo" src="/images/logo.webp" width="640" height="756" alt="SIHINA logo – Team Rad KDU, For a hopeful tomorrow" loading="lazy" decoding="async">
       <div class="stats" role="list" aria-label="SIHINA 2026 at a glance">
         <div role="listitem"><strong>~400</strong><span>students at the school</span></div>
         <div role="listitem"><strong>~110</strong><span>direct beneficiaries</span></div>
         <div role="listitem"><strong>Rs. 710,002</strong><span>proposed budget</span></div>
         <div role="listitem"><strong>Since 2014</strong><span>a decade of SIHINA</span></div>
+      </div>
       </div>
     </div>
   </div>
@@ -323,6 +336,7 @@ footer p{margin:.3rem 0}
 </section>
 </main>
 <footer><div class="wrap">
+  <img class="foot-logo" src="/images/logo.webp" width="640" height="756" alt="SIHINA – Team Rad KDU logo" loading="lazy" decoding="async">
   <p><b>Team Rad KDU</b></p>
   <p>Society of Radiography and Radiotherapy, Department of Radiography and Radiotherapy, Faculty of Allied Health Sciences,<br><a href="https://www.kdu.ac.lk/" target="_blank" rel="noopener">General Sir John Kotelawala Defence University</a>, Sri Lanka</p>
   <p><a href="/Sihina/">SIHINA 2026</a> · <a href="https://forms.gle/V6UBUqEMEiU7rNVE8" target="_blank" rel="noopener">Sponsor</a> · <a href="tel:+94787134441">078 713 4441</a></p>
