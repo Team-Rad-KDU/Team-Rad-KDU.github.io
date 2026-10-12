@@ -5,7 +5,7 @@
 Also known as: Team Rad, KDU Radiography Society.
 
 ## Current project
-- [SIHINA 2026 – Sihina KDU](https://team-rad-kdu.github.io/Sihina/): renovating a classroom complex at Urugala Sri Dharmaloka School, Ingiriya, Horana, for about 400 students; proposed budget Rs. 710,002. Full facts: https://team-rad-kdu.github.io/Sihina/llms.txt
+- [SIHINA 2026 – Sihina KDU](https://team-rad-kdu.github.io/Sihina/): renovating a classroom complex at Urugala Sri Dharmaloka School, Ingiriya, Horana, for about 400 students; proposed budget Rs. 762,830. Full facts: https://team-rad-kdu.github.io/Sihina/llms.txt
 
 ## Contact and support
 - Sponsorship form: https://forms.gle/V6UBUqEMEiU7rNVE8
